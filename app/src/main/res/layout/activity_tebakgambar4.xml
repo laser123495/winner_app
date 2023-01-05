@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest"
+    tools:context=".tebakgambar4">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="27dp"
+        android:background="#0000"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rt" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="274dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="112dp"
+
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/rt2" />
+
+    <ImageButton
+        android:id="@+id/kucing3"
+        android:layout_width="134dp"
+        android:layout_height="106dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView13"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/chicken" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Kaki hewan apakah ini?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+    <ImageButton
+        android:id="@+id/tbhelp"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:background="#0000"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/help_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button8"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/button_a"
+        android:text="Bebek"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toStartOf="@+id/button11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_d"
+        android:text="Ayam"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button11" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:background="@drawable/button_c"
+        android:text="Ikan"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintTop_toTopOf="@+id/button9" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button11"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/button_b"
+        android:text="Anjing"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button8" />
+</androidx.constraintlayout.widget.ConstraintLayout>

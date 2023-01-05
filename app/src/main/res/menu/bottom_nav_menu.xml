@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menut_utama"
+        android:icon="@drawable/logo_rumah"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/menu_profil"
+        android:icon="@drawable/profil_nav"
+        android:title="@string/title_dashboard" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/settings_nav"
+        android:title="@string/title_notifications" />
+
+</menu>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest"
+    tools:context=".tebakgambar5">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="274dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="112dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/rt2" />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="berapakah jumlah hewan yang buas?"
+        android:textColor="@color/white"
+        android:textSize="19dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView13"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <ImageButton
+        android:id="@+id/kucing2"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="5dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/harimau" />
+
+    <ImageButton
+        android:id="@+id/kucing"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="25dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/kucing2"
+        app:layout_constraintTop_toTopOf="@+id/kucing2"
+        app:srcCompat="@drawable/kucing" />
+
+    <ImageButton
+        android:id="@+id/kucing10"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="11dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/kucing2"
+        app:layout_constraintTop_toBottomOf="@+id/kucing2"
+        app:srcCompat="@drawable/kucing" />
+
+    <ImageButton
+        android:id="@+id/kucing11"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/kucing4"
+        app:layout_constraintTop_toTopOf="@+id/kucing12"
+        app:srcCompat="@drawable/kucing" />
+
+    <ImageButton
+        android:id="@+id/kucing12"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/kucing"
+        app:layout_constraintTop_toTopOf="@+id/kucing10"
+        app:srcCompat="@drawable/kucing" />
+
+    <ImageButton
+        android:id="@+id/kucing13"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="11dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/kucing10"
+        app:layout_constraintTop_toBottomOf="@+id/kucing10"
+        app:srcCompat="@drawable/kucing" />
+
+    <ImageButton
+        android:id="@+id/kucing14"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="11dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/kucing12"
+        app:layout_constraintTop_toBottomOf="@+id/kucing10"
+        app:srcCompat="@drawable/singa" />
+
+    <ImageButton
+        android:id="@+id/kucing15"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="11dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/kucing11"
+        app:layout_constraintTop_toBottomOf="@+id/kucing10"
+        app:srcCompat="@drawable/harimau" />
+
+    <ImageButton
+        android:id="@+id/kucing4"
+        android:layout_width="49dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="25dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/kucing"
+        app:layout_constraintTop_toTopOf="@+id/kucing2"
+        app:srcCompat="@drawable/kucing" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rt" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button12"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="471dp"
+        android:layout_marginEnd="80dp"
+        android:background="@drawable/button_a"
+        android:text="10"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/button15"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/tb1help"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:background="#0000"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/help_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="27dp"
+        android:background="#0000"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button13"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_d"
+        android:text="3"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button15"
+        app:layout_constraintTop_toBottomOf="@+id/button15" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button14"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:background="@drawable/button_c"
+        android:text="5"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="@+id/button13" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button15"
+        android:layout_width="97dp"
+        android:layout_height="94dp"
+        android:layout_marginEnd="64dp"
+        android:background="@drawable/button_b"
+        android:text="2"
+        android:textSize="30dp"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/button12" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

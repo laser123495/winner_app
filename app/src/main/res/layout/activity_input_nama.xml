@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".start">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/gifbg"
+        app:layout_constraintTop_toTopOf="parent" />
+<FrameLayout
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"/>
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="272dp"
+        android:layout_height="297dp"
+        android:layout_marginTop="103dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btmulai_inputnama"
+        android:layout_width="256dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/radius_button"
+        android:elevation="3dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:stateListAnimator="@null"
+        android:text="Mulai"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/textinputlayout"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="256dp"-->
+<!--        android:layout_height="56dp"-->
+<!--        android:layout_marginStart="32dp"-->
+<!--        android:layout_marginTop="29dp"-->
+<!--        android:layout_marginEnd="32dp"-->
+<!--        android:hint="Nama mu"-->
+<!--        app:boxCornerRadiusBottomEnd="8dp"-->
+<!--        app:boxCornerRadiusBottomStart="8dp"-->
+<!--        app:boxCornerRadiusTopEnd="8dp"-->
+<!--        app:boxCornerRadiusTopStart="8dp"-->
+<!--        app:boxStrokeColor="#00D855"-->
+<!--        app:hintTextColor="#00D855"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/imageView2"-->
+<!--        app:startIconDrawable="@drawable/user">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/textinputedittext"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

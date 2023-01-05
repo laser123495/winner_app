@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/forest"
+    tools:context=".tebakgambar3">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rt" />
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="317dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="149dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:srcCompat="@drawable/rt2" />
+
+    <ImageButton
+        android:id="@+id/kucing"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="117dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/kakikucing" />
+
+    <ImageButton
+        android:id="@+id/kucing2"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="117dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/kucing"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/kakianjing" />
+
+    <ImageButton
+        android:id="@+id/kucing3"
+        android:layout_width="101dp"
+        android:layout_height="96dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="117dp"
+        android:background="#0000"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toEndOf="@+id/kucing2"
+        app:layout_constraintTop_toTopOf="@+id/imageView13"
+        app:srcCompat="@drawable/chicken" />
+    <TextView
+    android:id="@+id/textView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="25dp"
+    android:fontFamily="@font/poppinsbold"
+    android:text="Manakah kaki kucing?"
+    android:textColor="@color/white"
+    android:textSize="20dp"
+    app:layout_constraintBottom_toTopOf="@+id/imageView13"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.494"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/imageView12"
+    app:layout_constraintVertical_bias="1.0" />
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="27dp"
+        android:background="#0000"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/tb3help"
+        android:layout_width="38dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="22dp"
+        android:background="#0000"
+        android:elevation="10dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/help_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
