@@ -44,6 +44,9 @@ class puzzle4 : AppCompatActivity() {
         }
 
         binding.gajah.setOnClickListener {
+
+            var mediaPlayerr = MediaPlayer.create(this,R.raw.pterodactyl)
+            mediaPlayerr.start()
             gajah.animate().apply {
             duration = 500
             rotationYBy(360f)
@@ -75,6 +78,8 @@ class puzzle4 : AppCompatActivity() {
                 duration = 500
                 rotationYBy(360f)
             }.start()
+            var mediaPlayerr = MediaPlayer.create(this,R.raw.dino)
+            mediaPlayerr.start()
             Toast.makeText(applicationContext,"yah salah, ayo coba lagi!",Toast.LENGTH_SHORT).show()
         }
         binding.gajah2.setOnClickListener {
@@ -84,6 +89,8 @@ class puzzle4 : AppCompatActivity() {
                 duration = 500
                 rotationYBy(360f)
             }.start()
+            var mediaPlayerr = MediaPlayer.create(this,R.raw.dino)
+            mediaPlayerr.start()
             Toast.makeText(applicationContext,"yah salah, jangan menyerah",Toast.LENGTH_SHORT).show()
         }
 

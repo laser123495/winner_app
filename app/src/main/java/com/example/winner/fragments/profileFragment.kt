@@ -1,12 +1,15 @@
 package com.example.winner.fragments
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import com.example.winner.R
+import com.example.winner.*
+import com.example.winner.databinding.FragmentProfileBinding
+import com.example.winner.databinding.FragmentSettingsBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -35,7 +38,21 @@ class profileFragment : Fragment() {
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View? {        val bind = FragmentProfileBinding.inflate(layoutInflater)
+
+       bind.puzzel.setOnClickListener{
+            val intent = Intent (this@profileFragment.requireContext(), tutorial_puzzle::class.java)
+            startActivity(intent)
+        }
+        bind.tebakgambar.setOnClickListener{
+            val intent = Intent (this@profileFragment.requireContext(), tutorial_tebakgambar::class.java)
+            startActivity(intent)
+        }
+        bind.perhitungan.setOnClickListener{
+            val intent = Intent (this@profileFragment.requireContext(), tutorial_perhitungan::class.java)
+            startActivity(intent)
+        }
+        return bind.root
         // Inflate the layout for this fragment
 //        val view = inflater.inflate(R.layout.fragment_profile, container, false)
 //        text = view.findViewById(R.id.txtText)

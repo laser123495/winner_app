@@ -30,7 +30,8 @@ class puzzle1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPuzzle1Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        var mediaPlayer = MediaPlayer.create(this,R.raw.elephant)
+        mediaPlayer.start()
 
         binding.tb2help.setOnClickListener {
             tb2help.animate().apply {
@@ -49,6 +50,7 @@ class puzzle1 : AppCompatActivity() {
                 duration = 500
                 rotationYBy(360f)
             }.start()
+
             Toast.makeText(applicationContext," yee benar, kamu hebat!!",Toast.LENGTH_SHORT).show()
 
             binding.gjhbenar.visibility = View.VISIBLE
@@ -64,6 +66,8 @@ class puzzle1 : AppCompatActivity() {
             },3000)
         }
         binding.gajah.setOnClickListener {
+            var mediaPlayerr = MediaPlayer.create(this,R.raw.elephant)
+            mediaPlayerr.start()
             gajah.animate().apply {
                 duration = 500
                 rotationYBy(360f)
@@ -73,6 +77,8 @@ class puzzle1 : AppCompatActivity() {
             Toast.makeText(applicationContext,"yah salah, ayo coba lagi!",Toast.LENGTH_SHORT).show()
         }
         binding.gajah3.setOnClickListener {
+            var mediaPlayerr = MediaPlayer.create(this,R.raw.elephant)
+            mediaPlayerr.start()
             gajah3.animate().apply {
                 duration = 500
                 rotationYBy(360f)

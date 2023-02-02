@@ -27,7 +27,8 @@ class perhitungan5 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPerhitungan5Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        var mediaPlayer = MediaPlayer.create(this,R.raw.footsteps_grass)
+        mediaPlayer.start()
         binding.button4.setOnClickListener {
             button4.animate().apply {
                 duration = 500
@@ -39,7 +40,7 @@ class perhitungan5 : AppCompatActivity() {
         }
         binding.tb1help.setOnClickListener {
 
-            var mediaPlayer = MediaPlayer.create(this,R.raw.click)
+            var mediaPlayer = MediaPlayer.create(this,R.raw.footsteps_grass)
             mediaPlayer.start()
             tb1help.animate().apply {
                 duration = 2000

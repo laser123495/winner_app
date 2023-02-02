@@ -71,6 +71,8 @@ class puzzle3 : AppCompatActivity() {
             }.start()
             var mediaPlayer = MediaPlayer.create(this,R.raw.wrong)
             mediaPlayer.start()
+            var mediaPlayerr = MediaPlayer.create(this,R.raw.water)
+            mediaPlayerr.start()
             Toast.makeText(applicationContext,"yah salah, ayo coba lagi!",Toast.LENGTH_SHORT).show()
         }
         binding.gajah2.setOnClickListener {

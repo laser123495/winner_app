@@ -13,29 +13,76 @@
         android:theme="@style/Theme.Winner"
         tools:targetApi="31">
         <activity
+            android:name=".tutorial_perhitungan"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value=""
+                />
+        </activity>
+        <activity
+            android:name=".tutorial_tebakgambar"
+            android:exported="false"
+            android:parentActivityName=".fragments.profileFragment"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".tutorial_puzzle"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".fragments.profileFragment">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".fragments.profileFragment"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".fragments.SettingsFragment"
+            android:exported="false"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".activityPuzzle"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".puzzle4"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".puzzle3"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".puzzle2"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -43,6 +90,7 @@
         <activity
             android:name=".puzzle1"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:parentActivityName=".tebakgambar">
             <meta-data
                 android:name="android.app.lib_name"
@@ -50,42 +98,48 @@
         </activity>
         <activity
             android:name=".finishPerhitungan"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".perhitungan5"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".perhitungan4"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".perhitungan3"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".perhitungan2"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".MainActivity2"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -93,6 +147,7 @@
         <activity
             android:name=".perhitungan1"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:parentActivityName=".perhitungan">
             <meta-data
                 android:name="android.app.lib_name"
@@ -101,6 +156,7 @@
         <activity
             android:name=".perhitungan"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
@@ -108,56 +164,64 @@
         </activity>
         <activity
             android:name=".comingsoon"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".quit"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".tebakgambar6"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".cobalagi"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".tebakgambar5"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".tebakgambar4"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".tebakgambar3"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".dialog_gembok"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -172,14 +236,16 @@
         </activity>
         <activity
             android:name=".finish"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".tebakgambar2"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -187,6 +253,7 @@
         <activity
             android:name=".tebakgambar1"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:parentActivityName=".tebakgambar">
             <meta-data
                 android:name="android.app.lib_name"
@@ -195,7 +262,8 @@
         <activity
             android:name=".dialog_feedback"
             android:exported="false"
-            android:parentActivityName=".MainActivity">
+            android:screenOrientation="portrait"
+            android:parentActivityName=".fragments.SettingsFragment">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -212,6 +280,7 @@
         <activity
             android:name=".feedback"
             android:exported="false"
+            android:screenOrientation="portrait"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
@@ -219,7 +288,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -239,14 +309,16 @@
         </activity>
         <activity
             android:name=".loading_page"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
             android:name=".startpage"
-            android:exported="false">
+            android:exported="false"
+            android:screenOrientation="portrait">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

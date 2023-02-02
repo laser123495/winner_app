@@ -14,6 +14,7 @@ import kotlinx.android.synthetic.main.activity_perhitungan1.*
 import kotlinx.android.synthetic.main.activity_perhitungan1.tb1help
 import kotlinx.android.synthetic.main.activity_tebakgambar1.*
 import kotlinx.android.synthetic.main.activity_tebakgambar2.*
+import kotlinx.android.synthetic.main.activity_tebakgambar6.*
 
 class perhitungan1 : AppCompatActivity() {
     private lateinit var binding:ActivityPerhitungan1Binding
@@ -22,6 +23,10 @@ class perhitungan1 : AppCompatActivity() {
         setContentView(R.layout.activity_tebakgambar1)
         binding = ActivityPerhitungan1Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        var mediaPlayer = MediaPlayer.create(this,R.raw.croc)
+        mediaPlayer.start()
+
 
         binding.button4.setOnClickListener {
             button4.animate().apply {
@@ -35,11 +40,12 @@ class perhitungan1 : AppCompatActivity() {
             startActivity(intent)
         }
         binding.tb1help.setOnClickListener {
+
             tb1help.animate().apply {
                 duration = 2000
                 rotationYBy(720f)
             }.start()
-            var mediaPlayer = MediaPlayer.create(this,R.raw.click)
+            var mediaPlayer = MediaPlayer.create(this,R.raw.croc)
             mediaPlayer.start()
             Toast.makeText(applicationContext,"buayanya ada 3..jawabanya 3",Toast.LENGTH_SHORT).show()
         }

@@ -18,7 +18,8 @@ class perhitungan3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPerhitungan3Binding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        var mediaPlayer = MediaPlayer.create(this,R.raw.rabbit)
+        mediaPlayer.start()
         binding.button4.setOnClickListener {
             button4.animate().apply {
                 duration = 500
@@ -29,7 +30,7 @@ class perhitungan3 : AppCompatActivity() {
             Toast.makeText(applicationContext," yah salah...ayo jangan menyerah",Toast.LENGTH_SHORT).show()
         }
         binding.tb1help.setOnClickListener {
-            var mediaPlayer = MediaPlayer.create(this,R.raw.click)
+            var mediaPlayer = MediaPlayer.create(this,R.raw.rabbit)
             mediaPlayer.start()
             tb1help.animate().apply {
                 duration = 2000

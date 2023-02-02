@@ -61,15 +61,17 @@ class feedback : AppCompatActivity() {
             yesbtn.setOnClickListener{
                 myDialog.dismiss()
 
-
-                yesbtn.setOnClickListener{
-                    val intent = Intent (this@feedback, SettingsFragment::class.java)
-                    startActivity(intent)
             }
 
 
         }
 
-
+        setToolbar()
     }
-} }
+    private fun setToolbar() {
+        setSupportActionBar(binding.toolbar)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.setHomeAsUpIndicator(R.drawable.ic_baseline_close_24)
+        supportActionBar?.setDisplayShowTitleEnabled(false)
+    }
+}
